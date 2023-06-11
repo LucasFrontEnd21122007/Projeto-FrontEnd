@@ -1,0 +1,18 @@
+import React from 'react';
+
+function App() {
+    const handleClick = () => {
+        const element = document.getElementById("message");
+        element.innerHTML = "Botão clicado!";
+    };
+
+    return (
+        <div className="container">
+            <h1>Meu Aplicativo React</h1>
+            <button className="button" onClick={handleClick}>Clique aqui</button>
+            <p id="message"></p>
+        </div>
+    );
+}
+
+export default App;
