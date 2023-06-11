@@ -1,0 +1,6 @@
+function handleClick(){
+    var element = document.getElementById("Message");
+    element.innerHTML = "Botão Clicado!!!";
+}
+var Button = document.getElementById("MyButton");
+Button.addEventListener("click", handleClick);
